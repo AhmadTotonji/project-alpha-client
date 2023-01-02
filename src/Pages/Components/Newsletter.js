@@ -13,8 +13,8 @@ const Newsletter = () => {
                 <h1 className="text-3xl md:text-4xl font-bold fw-bold text-center capitalize" style={{ fontFamily: "Rajdhani" }}>A WEBBASE EMERGENCY HOUSEHOLD SERVICE PLATFORM</h1>
                 <p className="text-gray-400 text-center pt-5 mb-5 text-white">Anyone can easily get and hire worker. Workers like "Electricians, Cookers, Babysitters, Plumbers, House cleaner, Carpenter, Maidservant etc. Anyone can easily pay the bill through Online or in cash.</p>
                 <div className="flex items-center justify-center">
-                    <h2 className="text-2xl font-bold mb-5 mr-5">Want to hire? Click services button </h2>
-                    <button onClick={() => navigate("/services")} type="button" className="bg-primary text-white px-7 text-md font-semibold py-4 rounded">Services</button>
+                    <h2 className="text-2xl font-bold mb-5 mr-5">Want to join ua? Click join us button </h2>
+                    <button onClick={() => navigate("/joinus")} type="button" className="bg-primary text-white px-7 text-md font-semibold py-4 rounded">Join us</button>
                 </div>
 
             </div>
